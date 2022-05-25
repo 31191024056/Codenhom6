@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap');
+*{padding: 0; margin: 0;font-family: 'Nunito Sans', sans-serif;}
+.fullcontent-fluid{background: white; margin: 0px auto}
+/*HEADER*/
+.header1{background-color: black;width: 100%;height: 40px}
+.header1 ul{list-style-type: none; text-align: center;height: 40px;overflow: none;}
+.header1 li{width: 110px;height: 30px;float: right;padding-right: 5px;padding-top: 10px;cursor: pointer;}
+.header1 li a{color:white}
+.header1  li a:hover{color:rgb(291,94,44);}
+.header2{background-color: rgb(231, 230, 230);width: 100%;height: 150px;}
+.header2-left{background-color: white;width:20%;height:150px;float:left}
+.brand{width: 74%;height: 100px;padding-left: 11%;padding-right: 3%;cursor: pointer;}
+.header2-center{background-color: white;width:50%;height:150px;float: left;}
+.header2-center ul{list-style-type: none; overflow: none;}
+.header2-center li{width:25%;height: 100px;float: left;padding-top: 55px;cursor: pointer;}
+.header2-right{background-color:white;width: 20%;height:150px;float: left;position: relative;display: flex;flex-direction: row;align-items: center;}
+.menu2{background-color: white;width: 10%;height: 150px;float:left}
+.searchbox{position: relative;background-color: white;border-radius: 30px;width: 0px;height: 42px;transition: 0.5s;}
+.searchbox input{width:100%;background: transparent;border: none;outline: none;color: black; font-size: 15px;padding: 13px;}
+.searchbox input::placeholder{color: rgb(221, 221, 221);}
+.searchbtn{width:18px;height: 22px;border-radius: 50%;display: flex;align-items: center;justify-content: center;position: absolute;left:88%;box-shadow: 0 0 0 10px white;cursor: pointer;}
+.header2-right:hover>.searchbox{width: 100%;border-style: solid;border-color: black ;}
+.menu2 ul{list-style-type: none;overflow: none;}
+.menu2 li{width: 45%;height: 50px;float: right;padding-top: 60px;cursor: pointer;}
+.material-icons{color: black;}
+.header3{background-color: black;width: 100%;height: 25px;text-align: center;}
+.row1{display: none;}
+/*BODY*/
+.product-content{width:100%;height: 550px;background-color: white}
+.product-content-left{background-color: white; width: 50%;height:100%;float: left;}
+.product-content-left-img1{ width: 70%; height:70% ;float: left;padding-left: 10%;}
+.product-content-left-img1 img{width: 100%; overflow: hidden; display: block;}
+.product-content-left-img2{ width: 15%;height: 70%;float: left;}
+.product-content-left-img2 img{width:100%;height:110px;padding-bottom:15px}
+.product-content-right{height: 100%;width: 40%;padding-left: 1%;float: left;}
+.product-name h1{font-size: 25px;}
+.product-name p{font-size: 18px;}
+.product-price{font-size: 25px;font-weight: bold;}
+.product-color p{font-size: 20px;}
+.product-color img{width: 30px;height: 30px;border-radius: 50%;}
+.product-color-img{width: 35px;height: 35px;border: 1px solid #333;display: flex;align-items: center;justify-content: center;}
+.size span{font-weight: bold;display: inline-block;padding: 6px 12px;border: 1px solid #A5A9AC;margin: 10px 8px 10px 0;font-size: 16px;cursor: pointer;}
+.size span:hover{background-color: #F15E2C;}
+.quantity{display: flex;}
+.quantity p{ font-size: 20px;}
+.quantity input{width: 50px;padding-left: 5px;height: 23px}
+.product-btn button{height: 70px;width: 250px;}
+.product-btn i{font-size: 30px;}
+.pay-btn{padding-bottom: 20px;}
+.pay-btn button{height: 70px; width: 607px;background-color: white;}
+.pay-btn i{font-size: 30px;}
+.pay-btn button:hover{ background-color: #F15E2C;}
+.product-btn button:first-child{cursor: pointer;background-color: white;padding-right: 10px;}
+.product-btn button:first-child:hover{background-color: #F15E2C;}
+.product-btn button:last-child{cursor: pointer;background-color: white;}
+.product-btn button:last-child:hover{background-color: #F15E2C}
+.zoom{overflow: hidden;display: inline-block;}
+.zoom img{transition: 0.2s;height: 500px;}
+.zoom:hover img{ transform: scale(1.2, 1.2);}
+/* FOOTER*/
+.footer{background-color: rgb(76,76,76);width: 100%;height: 500px}
+.map{width: 23%;height:70%;float: left;padding-top: 75px;}
+.footer-center{background-color: rgb(76,76,76);width:50%; height: 100%;float:left}
+.footer-left{background-color:rgb(76,76,76) ;width: 23%;height: 60%;float: left;padding-top:150px;padding-left: 35px;}
+.container1{height: 70%;text-align: center;align-items: center;}
+.app{height: 75%;margin: 20px;}
+.app img{height: 50px;}
+.container1 p{line-height: 20px;letter-spacing: 1px;font-size: 18px;color: black;font-weight: bold;}
+.app p{padding-top: 10px;margin: 20px;border-radius: 15px;border: none;}
+.app input{height:38px;width: 250px;text-align: left;font-size: 15px;border:none}
+.apply1{background-color: black;border:none;width: 100px;height:38px}
+.apply1:hover{background: rgb(291,94,44);}
+.ThongTin{text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 20px;}
+.ThongTin li {padding: 20px 12px; position: relative;list-style: none;font-weight: bold;}
+.ThongTin li:last-child a{color: white;padding: 0 5px;}
+.ThongTin{font-size: 18px;margin-top: -55px;}
+.ThongTin li a{color: white;}
+.ThongTin li a:hover{color: #F15E2C;}
+
+
+ /*tablet*/
+ @media only screen and (max-width:1024px){
+     /*header*/
+    .header1,.header2,.header3{display: none;}
+    .row1{display:block;width:100%;height: 135px;flex-direction: column;align-items: flex-start;}
+    .navbar-header{width:83%;height:  100%;float: left;}
+    .navbar-header-left{width: 35%;height: 100%;float: left;}
+    .navbar-brand{width: 80%;height: 80%;padding-left: 30%;padding-top: 8%;}
+    .navbar-menu{width: 65%;height: 100%;float: left;}
+    .material-icons{padding-left: 15%;padding-top: 40px;font-size: 360%;}
+    .countProduct{font-size: 100%}
+    .boxsearch{position: fixed;top:135px;left: 32%;background-color: white;border-radius: 30px;width: 50%;height: 42px;border-style: solid;border-color: #f15e2c;transform: translateY(-390%);}
+    .boxsearch input{width:92%;background: transparent;border: none;outline: none;color: black; font-size: 15px;padding: 13px;}
+    .boxsearch input::placeholder{color: rgb(221, 221, 221);}
+    .navbar-header-right{background-color: #4c4c4c;width:17%;height: 100%;float: left;}
+    .navbar-danhmuc{padding:25%;}
+    .material-icons-outlined{font-size: 5rem; color:white}
+    .collapse{position: fixed;top: 0;bottom: 0;right: 0;width: 30%;max-width: 100%;background-color: #555;transform: translateX(100%);transition: transform linear 0.2s;}
+    .menu-close{position: absolute;font-size: 35px;color: #666;top:3%;right: 2%;}
+    .mobile_menu_list{margin-top: 45%;list-style-type: none;}
+    .mobile_menu_link {text-decoration: none;background-color: #555;color:#fff;display: block;padding:20px ;padding-left: 8px;font-size: 3;}
+    .mobile_menu_link :hover{background-color: #F15E2C;}
+    .material-symbols-rounded{font-size:2rem}
+    .input-dm:checked ~ .overlay{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(0,0,0,0.3);animation: fadein linear 0.2s;}
+    .input-dm:checked ~ .collapse{transform: translateX(0%);}
+    .input-tk:checked ~ .overlay{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(0,0,0,0.3);animation: fadein linear 0.2s;}
+    .input-tk:checked ~ .boxsearch{transform: translateY(0%);}
+    .row2{background-color: black;width:100%;height: 70px;text-align: center;font-size: 110%;}
+    /* BODY */
+    .product-content{width:100%;height: 1210px;background-color: white}
+    .product-content-left{background-color: white; width: 100%;height:59%;margin-top: 3%;}
+    .product-content-right{height: 41%;width: 90%;padding-left: 5%;}
+    .product-content-left-img1{ width: 76%; height:100% ;float: left;padding-left: 5%;}
+    .product-content-left-img1 img{width: 100%;height: 100%;}
+    .product-content-left-img2{ width: 14%;height: 100%;float: left;}
+    .product-content-left-img2 img{width: 100%;height: 22.2%;}
+    .product-btn{width: 100%;height: 16.2%;}
+    .product-btn button{width: 49.7%;height: 100%;}
+    .pay-btn{width: 100%;height: 16.2%;}
+    .pay-btn button{width: 100%;height: 100%;}
+    /* FOOTER */
+    .map{display: none;}
+    .footer-left{display: none;}
+    .footer{align-items: center;height: 500px;width: 100%;}
+    .footer-center{width: 100%;}
+    .app{ margin: 0;padding: 0; width: 100%; height: 45%;}
+    .ThongTin{padding-top: 0;}
+    .ThongTin li{padding: 10px;}
+    .pay-btn{padding-top: 5px;}
+}
+ @keyframes fadein{
+     from{opacity: 0;}
+     to{opacity: 1;}
+ }
+@media only screen and (max-width:740px){
+    .row1{display:block;width:100%;height: 65px;flex-direction: column;align-items: flex-start;}
+    .material-icons{font-size: 200%;padding-left: 12%;padding-top:6%;}
+    .countProduct{font-size:50%}
+    .material-icons-outlined{font-size:2rem;color:white}
+    .navbar-danhmuc{padding-top:25%;padding-left: 30%}
+    .collapse{position: fixed;top: 0;bottom: 0;right: 0;width: 50%;max-width: 100%;background-color: #555;transform: translateX(100%);transition: transform linear 0.2s;}
+    .row2{background-color: black;width:100%;height: 30px;text-align: center;font-size: 50%;}
+    .boxsearch{position: fixed;top:65px;left: 32%;background-color: white;border-radius: 30px;width: 50%;height: 35px;border-style: solid;border-color: #f15e2c;transform: translateY(-390%);}
+    /* BODY */
+    .product-content{width:100%;height: 900px;background-color: white}
+    .product-content-left{background-color: white; width: 100%;height:41%;margin-top: 3%;}
+    .product-content-right{height: 55%;width: 90%;padding-left: 5%;}
+    .product-content-left-img1{ width: 76%; height:100% ;float: left;padding-left: 5%; padding-right: 10px;}
+    .product-content-left-img1 img{width: 100%;height: 100%;}
+    .product-content-left-img2{ width: 14%;height: 100%;float: left;padding-left: 1%;}
+    .product-content-left-img2 img{width: 100%;height: 20.5%;}
+    .product-btn{width: 100%;height: 16.2%;}
+    .product-btn button{width: 49%;height: 100%;}
+    .pay-btn{width: 100%;height: 16.2%;}
+    .pay-btn button{width: 100%;height: 100%;}
+    h1{padding-top: 10px;}
+    /* FOOTER */
+    .map{display: none;}
+    .footer-left{display: none;}
+    .footer{align-items: center; padding-top: 50px; width: 100%; height: 500px; }
+    .footer-center{width: 100%;}
+    .app{margin: 0;padding: 0; }
+    .apply1{ padding-top: 5px; padding-bottom: 5px;}
+    .input-group-btn button{padding-top: 5px;}
+    .ThongTin{ padding-top: 0 }
+    .pay-btn{padding-top: 5px}
+}

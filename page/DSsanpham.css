@@ -1,0 +1,335 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap');
+
+*{padding: 0; 
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* --- */
+.fullcontent-fluid{background: white; margin: 0px auto;width: 100%;}
+
+/*HEADER*/
+.header1{background-color: black;width: 100%;height: 40px; margin-top: 0;}
+.header1 ul{list-style-type: none; text-align: center;height: 40px;overflow: none;}
+.header1 li{width: 110px;height: 30px;float: right;padding-right: 5px;padding-top: 10px;cursor: pointer;}
+.header1 li a{color:white}
+.header1  li a:hover{color:rgb(291,94,44);}
+.header2{background-color: rgb(231, 230, 230);width: 100%;height: 150px;}
+.header2-left{background-color: white;width:20%;height:150px;float:left}
+.brand{width: 74%;height: 100px;padding-left: 11%;padding-right: 3%;cursor: pointer;}
+.header2-center{background-color: white;width:50%;height:150px;float: left;}
+.header2-center ul{list-style-type: none; overflow: none;}
+.header2-center li{width:25%;height: 100px;float: left;padding-top: 55px;cursor: pointer;}
+.header2-right{background-color:white;width: 20%;height:150px;float: left;position: relative;display: flex;flex-direction: row;align-items: center;}
+.menu2{background-color: white;width: 10%;height: 150px;float:left}
+.searchbox{position: relative;background-color: white;border-radius: 30px;width: 0px;height: 42px;transition: 0.5s;}
+.searchbox input{width:100%;background: transparent;border: none;outline: none;color: black; font-size: 15px;padding: 13px;}
+.searchbox input::placeholder{color: rgb(221, 221, 221);}
+.searchbtn{width:18px;height: 22px;border-radius: 50%;display: flex;align-items: center;justify-content: center;position: absolute;left:88%;box-shadow: 0 0 0 10px white;cursor: pointer;}
+.header2-right:hover>.searchbox{width: 100%;border-style: solid;border-color: black ;}
+.menu2 ul{list-style-type: none;overflow: none;}
+.menu2 li{width: 45%;height: 50px;float: right;padding-top: 60px;cursor: pointer;}
+.material-icons{color: black;}
+.header3{background-color: black;width: 100%;height: 25px;text-align: center;}
+.row1{display: none;}
+
+
+ /* --------------------------------------------------------------------------------------*/
+                          /* CONTENT-THÂN TRANG*/
+
+    .containerfull {
+    width: 80%;
+    margin: 0 auto;   
+    }
+    .row{width: 100%;display: flex; justify-content:space-between; flex-wrap: wrap;}
+    .boloc-tong{width:19%;float:left; margin-top: 30px;}
+    .timkiem-tong{width:79%;text-align:center;float:left; margin-top: 30px;}
+
+/*--Bộ lọc--*/
+    .header-position{padding:20px 0 20px 0;}
+    .wall-header_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 70px 0 0 0;
+        overflow: hidden;
+        padding-top:0;        
+    }    
+    #shoes {
+        position: relative;
+        list-style: none;
+        font-weight: bold;
+        width: 677px;
+    }
+    .subheading .loc {
+        position: relative;
+        list-style: none;
+        font-weight: bold;
+    }
+  
+    
+     /*---Bộ lọc cụ thể---*/
+
+     #heading-tong {
+        background-color: #FF5F17;
+        align-content: center;
+    }
+    .panel-heading {
+        background-color: black;
+    }
+    .panel-heading h4 a {
+        color: white;
+    }
+    #accordion {border: none; font-size: 18px;}
+    .list-group{list-style-type: none;}
+    .behclick-panel .list-group {
+        margin-bottom: 0px;
+    }
+    .behclick-panel .list-group-item:first-child {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .behclick-panel .list-group-item {
+        border-right: 0px;
+        border-left: 0px;
+    }
+    .behclick-panel .list-group-item:last-child {
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .behclick-panel .list-group-item {
+        padding: 5px;
+    }
+    .behclick-panel .panel-heading {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom: 1px solid darkslategrey;
+    }
+    .behclick-panel {
+        border-radius: 0px;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 0px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    }
+    .behclick-panel .radio, .checkbox {
+        margin: 0px;
+        padding-left: 10px;
+    }
+    .behclick-panel .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+        outline: none;
+    }
+    .behclick-panel .panel-body > .panel-heading {
+        padding: 10px 10px;
+    }
+    .behclick-panel .panel-body {
+        padding: 0px;
+    }
+    .behclick-panel a:link {
+        text-decoration: none;
+    }
+    .behclick-panel a:visited {
+        text-decoration: none;
+    }
+    .behclick-panel a:hover {
+        text-decoration: none;
+    }
+    .behclick-panel a:active {
+        text-decoration: none;
+    }
+
+    /*---Kết quả tìm kiếm sản phẩm---*/
+
+    .show-product1 {
+    width: 100%;     
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    }
+    .product-card1 {
+        width: 32%;
+        float: left;
+        margin-bottom: 10px;             
+    }    
+
+    /* ---------------dùng chung----------*/
+    .product-img {
+        width: 100%;          
+    }
+    .product-cachtrong {
+        width: 100%;
+        height: 15px;
+    }
+    .product-thongtin {
+        text-align: center;
+        width: 100%; 
+              
+    }
+    .product-thongtin a { 
+        height: 50px;      
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .product-thongtin h3 {
+        font-size: 16px;
+        font-weight: 200;
+        color: black;
+    }
+    .product-thongtin h4 {
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+    }
+    .product-thongtin del {
+        font-size: 15px;
+        color: #939290;
+        font-weight: bold;
+    }
+    .product-thongtin a:hover {
+        color: #FF5F17;
+        text-decoration: none;
+    }
+/*-------------------------------------*/
+    
+
+   /* FOOTER */
+.footer{background-color: rgb(76,76,76);width: 100%;height: 500px}
+.map{width: 23%;height:70%;float: left;padding-top: 75px;}
+.footer-center{background-color: rgb(76,76,76);width:50%; height: 100%;float:left}
+.footer-left{background-color:rgb(76,76,76) ;width: 23%;height: 60%;float: left;padding-top:150px;padding-left: 35px;}
+.container1{height: 70%;text-align: center;align-items: center;}
+.app{height: 75%;margin: 20px;}
+.app img{height: 50px;}
+.container1 p{line-height: 20px;letter-spacing: 1px;font-size: 18px;color: black;font-weight: bold;}
+.app p{padding-top: 10px;margin: 20px;border-radius: 15px;border: none;}
+.app input{height:38px;width: 250px;text-align: left;font-size: 15px;border:none}
+.apply1{background-color: black;border:none;width: 100px;height:38px}
+.apply1:hover{background: rgb(291,94,44);}
+.ThongTin{text-align: center;display: flex;justify-content: center;align-items: center;margin-bottom: 20px;}
+.ThongTin li {padding: 20px 12px; position: relative;list-style: none;font-weight: bold;}
+.ThongTin li:last-child a{color: white;padding: 0 5px;}
+.ThongTin{font-size: 18px;margin-top: -55px;}
+.ThongTin li a{color: white;}
+.ThongTin li a:hover{color: #F15E2C;}
+
+
+/* ------------------------------------------------ */
+/* //////////////////////////////// */
+/* Note Desktop: loại bỏ khoảng cách trống dưới header */
+@media only screen and (min-width: 1024px){
+    .row2{display: none;}
+    li.active{display: none;}
+    }
+    /*---RESPONSIVE---*/
+
+    /* TABLET: */
+@media only screen and (max-width: 1024px){
+    /*header*/
+    .header1,.header2,.header3{display: none;}
+    .row1{display:block;width:100%;height: 135px;flex-direction: column;align-items: flex-start;}
+    .navbar-header{width:83%;height:  100%;float: left;}
+    .navbar-header-left{width: 35%;height: 100%;float: left;}
+    .navbar-brand{width: 80%;height: 80%;padding-left: 30%;padding-top: 8%;}
+    .navbar-menu{width: 65%;height: 100%;float: left;}
+    .material-icons{padding-left: 15%;padding-top: 40px;font-size: 360%;}
+    .countProduct{font-size: 100%}
+    .boxsearch{position: fixed;top:135px;left: 32%;background-color: white;border-radius: 30px;width: 50%;height: 42px;border-style: solid;border-color: #f15e2c;transform: translateY(-390%);}
+    .boxsearch input{width:92%;background: transparent;border: none;outline: none;color: black; font-size: 15px;padding: 13px;}
+    .boxsearch input::placeholder{color: rgb(221, 221, 221);}
+    .navbar-header-right{background-color: #4c4c4c;width:17%;height: 100%;float: left;}
+    .navbar-danhmuc{padding:25%;}
+    .material-icons-outlined{font-size: 5rem; color:white}
+    .collapse{position: fixed;top: 0;bottom: 0;right: 0;width: 30%;max-width: 100%;background-color: #555;transform: translateX(100%);transition: transform linear 0.2s;}
+    .menu-close{position: absolute;font-size: 35px;color: #666;top:3%;right: 2%;}
+    .mobile_menu_list{margin-top: 45%;list-style-type: none;}
+    .mobile_menu_link {text-decoration: none;background-color: #555;color:#fff;display: block;padding:20px ;padding-left: 8px;font-size: 3;}
+    .mobile_menu_link :hover{background-color: #F15E2C;}
+    .material-symbols-rounded{font-size:2rem}
+    .input-dm:checked ~ .overlay{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(0,0,0,0.3);animation: fadein linear 0.2s;}
+    .input-dm:checked ~ .collapse{transform: translateX(0%);}
+    .input-tk:checked ~ .overlay{position: fixed;top: 0;bottom: 0;left: 0;right: 0;background-color: rgba(0,0,0,0.3);animation: fadein linear 0.2s;}
+    .input-tk:checked ~ .boxsearch{transform: translateY(0%);}
+    .row2{background-color: black;width:100%;height: 70px;text-align: center;font-size: 110%;}
+    /* FOOTER */
+    .map{display: none;}
+    .footer-left{display: none;}
+    .footer{align-items: center;height: 500px;width: 100%;}
+    .footer-center{width: 100%;}
+    .app{ margin: 0;padding: 0; width: 100%; height: 45%;}
+    .ThongTin{padding-top: 0;}
+    .ThongTin li{padding: 10px;}
+    .pay-btn{padding-top: 5px;}
+    /* ---- */
+    /* NOI DUNG */
+    .containerfull {
+        width: 95%;
+    }    
+    .show-product #an {
+        display: none;
+    }
+    .boloc-tong{display:none;}  
+    .timkiem-tong{width:100%;}
+}
+
+    /* MOBILE: */
+@media only screen and (max-width: 740px){
+    h3#shoes.wall-header_title{display:none;}
+    /* HEADER */
+    .row1{display:block;width:100%;height: 65px;flex-direction: column;align-items: flex-start;}
+      .material-icons{font-size: 200%;padding-left: 12%;padding-top:6%;}
+      .countProduct{font-size:50%}
+      .material-icons-outlined{font-size:2rem;color:white}
+      .navbar-danhmuc{padding-top:25%;padding-left: 30%}
+      .collapse{position: fixed;top: 0;bottom: 0;right: 0;width: 50%;max-width: 100%;background-color: #555;transform: translateX(100%);transition: transform linear 0.2s;}
+      .row2{background-color: black;width:100%;height: 30px;text-align: center;font-size: 50%;}
+      .boxsearch{position: fixed;top:65px;left: 32%;background-color: white;border-radius: 30px;width: 50%;height: 35px;border-style: solid;border-color: #f15e2c;transform: translateY(-390%);}
+    /* FOOTER */
+    .map{display: none;}
+    .footer-left{display: none;}
+    .footer{align-items: center; padding-top: 50px; width: 100%; height: 500px; }
+    .footer-center{width: 100%;}
+    .app{margin: 0;padding: 0; }
+    .apply1{ padding-top: 5px; padding-bottom: 5px;}
+    .input-group-btn button{padding-top: 5px;}
+    .ThongTin{ padding-top: 0 }
+    .pay-btn{padding-top: 5px}
+
+    /* --- */
+    /* NOI DUNG */
+
+    .containerfull {
+        width: 90%;
+    }
+    .timkiem-tong{width:100%;text-align:center;float:left; padding:0;}
+
+    .container{display:none;}  
+
+    /* Kết quả tìm kiếm */
+    .show-product1 {
+        flex-wrap: wrap;
+    }
+    .product-card1 {
+        width: 49%;        
+    }    
+    #accordion {
+        overflow: hidden;
+        min-inline-size:80px;        
+    }   
+    .boloc-tong{display:none;}  
+    .product-thongtin h4, .product-thongtin a {       
+        font-size: 17px;        
+    }
+    .product-thongtin h3 {
+        font-size: 15px;
+    }     
+
+     /* Gợi ý sản phẩm */
+     .show-product {
+        flex-wrap: wrap;       
+    }
+    .product-card {
+        width: 49%;        
+    }     
+}
